@@ -1,0 +1,10 @@
+
+
+fof_loc  /media/luna1/dkorytov/data/AlphaQ/fof/m000-${step}.fofproperties
+sod_loc  /media/luna1/dkorytov/data/AlphaQ/sod/m000-${step}.sodproperties
+core_loc /media/luna1/dkorytov/data/AlphaQ/core_catalog/12_20_16.AlphaQ.${step}.coreproperties
+hp_loc   /media/luna1/dkorytov/data/AlphaQ/big_halo_prtcls2/m000-${step}.bighaloparticles
+
+
+core_intact_radius .052
+steps 499

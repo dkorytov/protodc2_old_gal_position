@@ -1,0 +1,9 @@
+sod_loc /media/luna1/dkorytov/data/AlphaQ/sod/m000-${step}.sodproperties
+bhp_loc /media/luna1/dkorytov/data/AlphaQ/big_halo_prtcls2/m000-${step}.bighaloparticles
+hp_loc  /media/luna1/dkorytov/data/AlphaQ/halo_prtcls/m000-${step}.haloparticles
+
+core_loc /media/luna1/rangel/matched_from_galacticus/ListTracking/ListFull/03_27_17.AlphaQ.${step}.coreproperties
+mt_loc   /media/luna1/dkorytov/data/AlphaQ/merger_trees2/AlphaQ.${subfile}.hdf5
+sbh_loc /media/luna1/dkorytov/data/AlphaQ/subhalos/m000-499.subhaloproperties
+
+steps 499

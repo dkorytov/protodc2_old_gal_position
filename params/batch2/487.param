@@ -1,0 +1,25 @@
+
+
+fof_loc /media/luna1/dkorytov/data/AlphaQ/fof/m000-${step}.fofproperties
+sod_loc /media/luna1/dkorytov/data/AlphaQ/sod/m000-${step}.sodproperties
+bhp_loc /media/luna1/dkorytov/data/AlphaQ/big_halo_prtcls2/m000-${step}.bighaloparticles
+hp_loc  /media/luna1/dkorytov/data/AlphaQ/halo_prtcls/m000-${step}.haloparticles
+core_loc /media/luna1/rangel/matched_from_galacticus/ListTracking/ListFull/03_27_17.AlphaQ.${step}.coreproperties
+gal_loc  /home/dkorytov/data/AlphaQ/galaticus/galacticus_AlphaQv2_${subfile}_nbody_AlphaQ_z1.1_BH_SDSSugrizbJROval42.hdf5
+mt_loc   /media/luna1/dkorytov/data/AlphaQ/merger_trees3/AlphaQ.${subfile}.hdf5
+
+core_intact_radius 1.0
+step 487
+galaticus_step 31
+galaticus_z 0.0245
+output output/batch2/gal_${step}b.hdf5
+subfile_num 256
+
+rnd_halo_prtcl true
+
+NFW_profile true
+NFW_gamma 1.0
+NFW_maxR200 2.5
+
+#The main change here is the merger tree. I copied the tree from edison that galaticus ran on
+#The other tree I was using had a different md5 sum.

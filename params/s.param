@@ -1,0 +1,11 @@
+
+
+fof_loc  /media/luna1/rangel/matched_from_galacticus/analysis/Halos/b0168/STEP499/m000-${step}.fofproperties
+sod_loc  /media/luna1/rangel/matched_from_galacticus/analysis/Halos/M200/STEP499/m000-${step}.sodproperties
+core_loc /media/luna1/rangel/matched_from_galacticus/ListTracking/CoreCatalog/03_27_17.AlphaQ.${step}.coreproperties
+bhp_loc  /media/luna1/rangel/matched_from_galacticus/analysis/Halos/b0168/STEP499/m000-${step}.bighaloparticles
+hp_loc   /media/luna1/rangel/matched_from_galacticus/analysis/Halos/b0168/STEP499/m000-${step}.haloparticles
+gal_loc  /media/luna1/dkorytov/data/AlphaQ/galaticus/galacticus_AlphaQv2_100_nbody_AlphaQ_z1.1_BH_SDSSugrizbJROval42.hdf5
+mt_loc   /media/luna1/dkorytov/data/AlphaQ/merger_trees2/AlphaQ.100.hdf5
+core_intact_radius 1.0
+steps 499
